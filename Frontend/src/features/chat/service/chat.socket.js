@@ -5,7 +5,7 @@ let socket = null;
 export const initializeSocketConnection = () => {
   if (socket) return socket;
 
-  socket = io("http://localhost:3000", {
+  socket = io("https://insighto-d0of.onrender.com", {
     withCredentials: true,
   });
 

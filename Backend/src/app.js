@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: "https://insighto-ai.vercel.app/login",
+    origin: "https://insighto-ai.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   }),
